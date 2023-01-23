@@ -1,0 +1,50 @@
+
+/*
+Colores:
+https://colorhunt.co/palette/66806ab4c6a6ffc286fff1af
+#66806A
+#B4C6A6
+#FFC286
+#FFF1AF
+
+
+
+color de textos:
+#757575
+
+
+
+Fuentes:
+font-family: 'Roboto', sans-serif;
+
+
+
+
+*/
+
+
+
+
+
+
+@import "./base/reset";
+@import "./base/typo";
+@import "./layout/body";
+
+
+
+
+@import "./layout/main-contacto";
+@import "./layout/main-index";
+@import "./layout/main-about";
+@import "./layout/main-shop";
+@import "./layout/main-portfolio";
+
+@import "./utilities/variables";
+
+
+
+
+
+@import "./layout/footer"
+

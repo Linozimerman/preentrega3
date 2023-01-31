@@ -20,12 +20,14 @@ font-family: 'Roboto', sans-serif;
 
 
 */
-@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;1,700&family=Lato:ital,wght@0,400;1,700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
+/* @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&display=swap');
+<style> */
 body {
   /* background-image: url(/assets/img/fondo.png); */
   width: 100%;
@@ -35,7 +37,6 @@ body {
   margin-top: 70px;
   margin-bottom: 200px; }
   .main-contacto h1 {
-    font-family: 'Roboto', sans-serif;
     color: #FFA500;
     font-size: 60px;
     text-shadow: 5px 7px 8px rgba(66, 28, 17, 0.788); }
@@ -62,7 +63,6 @@ body {
   margin-top: 70px;
   margin-bottom: 200px; }
   .main-index h1 {
-    font-family: 'Roboto', sans-serif;
     color: #FFA500;
     font-size: 60px;
     text-shadow: 5px 7px 8px rgba(66, 28, 17, 0.788); }
@@ -77,22 +77,26 @@ body {
   border-radius: 20px; }
 
 .about-index {
-  font-family: 'Permanent Marker', cursive;
   font-size: 40px;
   /* color: #000000; */
   color: #CAA74E;
-  margin-left: 10px;
-  text-shadow: 4px 4px 2px black; }
+  text-shadow: 4px 3px 4px black;
+  background-color: rgba(255, 255, 255, 0.514);
+  border-radius: 40px;
+  margin-left: 20px;
+  margin-bottom: 10px; }
+  .about-index a {
+    text-decoration: none;
+    color: #CAA74E; }
   .about-index strong {
+    font-weight: 700;
     font-size: 60px;
     color: #907419;
-    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.582);
-    font-family: 'Roboto', sans-serif; }
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.582); }
 
 .index-descripcion-larga {
-  font-family: 'Roboto', sans-serif;
   font-size: 15px;
-  background-color: rgba(255, 255, 255, 0.514);
+  background-color: white;
   border-radius: 40px;
   text-align: center;
   margin: 10px 10px 10px 10px;
@@ -104,7 +108,6 @@ body {
   margin-top: 70px;
   margin-bottom: 200px; }
   .main-about h1 {
-    font-family: 'Roboto', sans-serif;
     color: #FFA500;
     font-size: 60px;
     text-shadow: 5px 7px 8px rgba(66, 28, 17, 0.788); }
@@ -113,7 +116,6 @@ body {
   font-size: 25px;
   color: #757575; }
   .soy-about h2 {
-    font-family: 'Permanent Marker', cursive;
     font-size: 40px;
     /* color: #000000; */
     color: #CAA74E;
@@ -122,21 +124,19 @@ body {
   .soy-about strong {
     font-size: 60px;
     color: #907419;
-    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.582);
-    font-family: 'Roboto', sans-serif; }
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.582); }
   .soy-about h4 {
-    font-family: 'Roboto', sans-serif;
     font-size: 15px;
-    background-color: rgba(255, 255, 255, 0.514);
+    background-color: white;
     border-radius: 40px;
     text-align: center;
-    margin: 10px 10px 10px 10px; }
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px; }
 
 .main-shop {
   margin-top: 70px;
   margin-bottom: 200px; }
   .main-shop h1 {
-    font-family: 'Roboto', sans-serif;
     color: #FFA500;
     font-size: 60px;
     text-shadow: 5px 7px 8px rgba(66, 28, 17, 0.788); }
@@ -151,7 +151,6 @@ body {
   padding-top: 70px;
   padding-bottom: 200px; }
   .main-portfolio h1 {
-    font-family: 'Roboto', sans-serif;
     color: #FFA500;
     font-size: 60px;
     text-shadow: 5px 7px 8px rgba(66, 28, 17, 0.788); }
@@ -163,6 +162,21 @@ body {
 .carousel-control-next-icon {
   background-color: #FFA500;
   border-radius: 10px; }
+
+main h1 {
+  font-family: "Arvo", serif; }
+
+main h2 {
+  font-family: "Arvo", serif; }
+
+main h3 {
+  font-family: "Lato", sans-serif; }
+
+main h4 {
+  font-family: "Lato", sans-serif; }
+
+main p {
+  font-family: "Lato", sans-serif; }
 
 footer {
   position: fixed;

@@ -1,0 +1,24 @@
+
+
+$tipo1: 'Arvo', serif;
+$tipo2: 'Lato', sans-serif;
+
+
+
+main{
+    h1{
+        font-family: $tipo1;
+    }
+    h2{
+        font-family: $tipo1;
+    }
+    h3{
+        font-family: $tipo2;
+    }
+    h4{
+        font-family: $tipo2;
+    }
+    p{
+        font-family: $tipo2;
+    }
+}

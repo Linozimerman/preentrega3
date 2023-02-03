@@ -44,7 +44,6 @@ body {
 .label-contacto {
   margin: 10px 10px 10px 10px; }
   .label-contacto span {
-    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     background-color: rgba(255, 255, 255, 0.514);
     border-radius: 40px;
@@ -52,9 +51,8 @@ body {
     padding: 10px 10px 10px 10px; }
 
 .dejame-datos {
-  font-family: 'Roboto', sans-serif;
   font-size: 30px;
-  background-color: rgba(255, 255, 255, 0.514);
+  background-color: rgba(255, 255, 255, 0.801);
   border-radius: 40px;
   text-align: start;
   padding: 10px 10px 10px 10px; }
@@ -80,11 +78,13 @@ body {
   font-size: 40px;
   /* color: #000000; */
   color: #CAA74E;
-  text-shadow: 4px 3px 4px black;
-  background-color: rgba(255, 255, 255, 0.514);
+  text-shadow: 3px 3px 3px black;
+  background-color: rgba(255, 255, 255, 0.712);
   border-radius: 40px;
+  padding-bottom: 10px;
   margin-left: 20px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  margin-right: 20px; }
   .about-index a {
     text-decoration: none;
     color: #CAA74E; }
@@ -120,7 +120,12 @@ body {
     /* color: #000000; */
     color: #CAA74E;
     margin-left: 10px;
-    text-shadow: 4px 4px 2px black; }
+    text-shadow: 3px 3px 3px black;
+    background-color: rgba(255, 255, 255, 0.712);
+    border-radius: 40px;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px; }
   .soy-about strong {
     font-size: 60px;
     color: #907419;
@@ -149,7 +154,7 @@ body {
 
 .main-portfolio {
   padding-top: 70px;
-  padding-bottom: 200px; }
+  padding-bottom: 240px; }
   .main-portfolio h1 {
     color: #FFA500;
     font-size: 60px;
@@ -186,7 +191,6 @@ footer {
   background-color: #66806A;
   height: auto;
   width: 100%;
-  font-family: Arial, Helvetica, sans-serif;
   padding-top: 30px;
   color: #0a0a0a; }
   footer h3 {

@@ -1,11 +1,26 @@
 
 
+
+
+$primary: #66806A;
+$lightprimary: #B4C6A6;
+$accent: #FFC286;
+$brightaccent: #FFA500;
+$navbar: #FFF1AF;
+$texts: #757575;
+$bubble: #CAA74E;
+
+
+
+
+
+
 $tipo1: 'Arvo', serif;
 $tipo2: 'Lato', sans-serif;
 
 
 
-main{
+
     h1{
         font-family: $tipo1;
     }
@@ -21,4 +36,3 @@ main{
     p{
         font-family: $tipo2;
     }
-}

@@ -2,19 +2,21 @@
     padding-top: 70px;
     padding-bottom: 240px;
     h1{
-        color: #FFA500;
+        color: $brightaccent;
         font-size: 60px;
         text-shadow: 5px 7px 8px rgba(66, 28, 17, 0.788);
     }
 }
 
 .carousel-control-prev-icon{
-    background-color:#FFA500;
+    background-color: $accent;
     border-radius: 10px;
     
 }
 .carousel-control-next-icon{
-    background-color:#FFA500;
+    background-color: $accent;
     border-radius: 10px;
     
 }
+
+

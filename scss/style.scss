@@ -14,10 +14,6 @@ color de textos:
 
 
 
-Fuentes:
-font-family: 'Roboto', sans-serif;
-
-
 
 
 */
@@ -29,9 +25,10 @@ font-family: 'Roboto', sans-serif;
 
 @import "./base/reset";
 @import "./base/typo";
+
+@import "./utilities/variables";
 @import "./layout/body";
-
-
+@import "./utilities/mixins";
 
 
 @import "./layout/main-contacto";
@@ -39,8 +36,8 @@ font-family: 'Roboto', sans-serif;
 @import "./layout/main-about";
 @import "./layout/main-shop";
 @import "./layout/main-portfolio";
+@import "./layout/navbar";
 
-@import "./utilities/variables";
 
 
 

@@ -3,7 +3,7 @@ footer {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-color: #66806A;
+	background-color: $primary;
 	height: auto;
 	width: 100%;
 	padding-top: 30px;
@@ -14,7 +14,7 @@ footer {
 		font-weight: 500;
 		text-transform: capitalize;
 		text-align: right;
-		color: #B4C6A6;
+		color: $lightprimary;
 		margin-right: 10px;
 	}
 }

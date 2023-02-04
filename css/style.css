@@ -13,10 +13,6 @@ color de textos:
 
 
 
-Fuentes:
-font-family: 'Roboto', sans-serif;
-
-
 
 
 */
@@ -28,11 +24,27 @@ font-family: 'Roboto', sans-serif;
 
 /* @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&display=swap');
 <style> */
+h1 {
+  font-family: "Arvo", serif; }
+
+h2 {
+  font-family: "Arvo", serif; }
+
+h3 {
+  font-family: "Lato", sans-serif; }
+
+h4 {
+  font-family: "Lato", sans-serif; }
+
+p {
+  font-family: "Lato", sans-serif; }
+
 body {
-  /* background-image: url(/assets/img/fondo.png); */
+  background-image: url(../assets/img/fondo.png);
   width: 100%;
   overflow-x: hidden; }
 
+/* style="background-image: url(../assets/img/fondo.png)" */
 .main-contacto {
   margin-top: 70px;
   margin-bottom: 200px; }
@@ -76,7 +88,6 @@ body {
 
 .about-index {
   font-size: 40px;
-  /* color: #000000; */
   color: #CAA74E;
   text-shadow: 3px 3px 3px black;
   background-color: rgba(255, 255, 255, 0.712);
@@ -87,11 +98,11 @@ body {
   margin-right: 20px; }
   .about-index a {
     text-decoration: none;
-    color: #CAA74E; }
+    color: #CAA74E;
+    font-weight: 700; }
   .about-index strong {
     font-weight: 700;
     font-size: 60px;
-    color: #907419;
     text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.582); }
 
 .index-descripcion-larga {
@@ -117,18 +128,17 @@ body {
   color: #757575; }
   .soy-about h2 {
     font-size: 40px;
-    /* color: #000000; */
     color: #CAA74E;
-    margin-left: 10px;
     text-shadow: 3px 3px 3px black;
     background-color: rgba(255, 255, 255, 0.712);
     border-radius: 40px;
+    margin-left: 10px;
     text-align: center;
     margin: 10px 10px 10px 10px;
     padding: 10px 10px 10px 10px; }
   .soy-about strong {
+    font-weight: 700;
     font-size: 60px;
-    color: #907419;
     text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.582); }
   .soy-about h4 {
     font-size: 15px;
@@ -161,27 +171,15 @@ body {
     text-shadow: 5px 7px 8px rgba(66, 28, 17, 0.788); }
 
 .carousel-control-prev-icon {
-  background-color: #FFA500;
+  background-color: #FFC286;
   border-radius: 10px; }
 
 .carousel-control-next-icon {
-  background-color: #FFA500;
+  background-color: #FFC286;
   border-radius: 10px; }
 
-main h1 {
-  font-family: "Arvo", serif; }
-
-main h2 {
-  font-family: "Arvo", serif; }
-
-main h3 {
-  font-family: "Lato", sans-serif; }
-
-main h4 {
-  font-family: "Lato", sans-serif; }
-
-main p {
-  font-family: "Lato", sans-serif; }
+.navbar {
+  background-color: #FFF1AF; }
 
 footer {
   position: fixed;

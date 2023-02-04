@@ -5,6 +5,7 @@
 .main-index{
     margin-top: 70px;
     margin-bottom: 200px;
+    overflow-x: hidden;
     h1{
         color: $brightaccent;
         font-size: 60px;
@@ -57,5 +58,6 @@ border-radius: 20px
         margin: 10px 10px 10px 10px;
     }
 }
+
 
 

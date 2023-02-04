@@ -1,33 +1,9 @@
 
-/*
-Colores:
-https://colorhunt.co/palette/66806ab4c6a6ffc286fff1af
-#66806A
-#B4C6A6
-#FFC286
-#FFF1AF
-
-
-
-color de textos:
-#757575
-
-
-
-
-
-*/
-
-
-
-
-
 
 @import "./base/reset";
 @import "./base/typo";
-
-@import "./utilities/variables";
 @import "./layout/body";
+@import "./utilities/variables";
 @import "./utilities/mixins";
 
 
@@ -37,11 +13,6 @@ color de textos:
 @import "./layout/main-shop";
 @import "./layout/main-portfolio";
 @import "./layout/navbar";
-
-
-
-
-
 
 @import "./layout/footer"
 

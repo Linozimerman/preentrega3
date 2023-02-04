@@ -1,21 +1,3 @@
-/*
-Colores:
-https://colorhunt.co/palette/66806ab4c6a6ffc286fff1af
-#66806A
-#B4C6A6
-#FFC286
-#FFF1AF
-
-
-
-color de textos:
-#757575
-
-
-
-
-
-*/
 @import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;1,700&family=Lato:ital,wght@0,400;1,700&display=swap");
 * {
   margin: 0;
@@ -24,6 +6,13 @@ color de textos:
 
 /* @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&display=swap');
 <style> */
+body {
+  background-image: url(../assets/img/fondo.png);
+  width: 100%;
+  overflow-x: hidden; }
+
+/* style="background-image: url(../assets/img/fondo.png)" */
+/* https://colorhunt.co/palette/66806ab4c6a6ffc286fff1af */
 h1 {
   font-family: "Arvo", serif; }
 
@@ -39,12 +28,6 @@ h4 {
 p {
   font-family: "Lato", sans-serif; }
 
-body {
-  background-image: url(../assets/img/fondo.png);
-  width: 100%;
-  overflow-x: hidden; }
-
-/* style="background-image: url(../assets/img/fondo.png)" */
 .main-contacto {
   margin-top: 70px;
   margin-bottom: 200px; }
@@ -71,7 +54,8 @@ body {
 
 .main-index {
   margin-top: 70px;
-  margin-bottom: 200px; }
+  margin-bottom: 200px;
+  overflow-x: hidden; }
   .main-index h1 {
     color: #FFA500;
     font-size: 60px;
@@ -179,7 +163,8 @@ body {
   border-radius: 10px; }
 
 .navbar {
-  background-color: #FFF1AF; }
+  background-color: #FFF1AF;
+  overflow-x: hidden; }
 
 footer {
   position: fixed;
